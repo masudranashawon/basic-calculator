@@ -1,0 +1,225 @@
+/* ~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+    Cascading Style Sheet Started  !
+~=~=~=~=~=~=~=~=~=~=~=~=~=~=~+~= */
+body {
+	margin: 0;
+	background: #ecececeb;
+}
+.calculator {
+	margin: auto;
+	margin-top: 50px;
+	width: 30%;
+	background-color: #f5f6fa;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 15px;
+	border-color: #f5f6fa;
+	box-shadow: 2px 2px 11px 5px rgb(97 89 89 / 50%);
+}
+
+.calculator .brand-name p {
+	margin: 0;
+	font-weight: bold;
+	margin:0 0 2px 5px ;
+	color: #576574;
+	float: left;
+}
+
+.calculator .model-no p {
+	margin: 0;
+	color: #576574;
+	overflow: hidden;
+	float: right;
+	font-size: 14px;
+}
+
+#display {
+    width: 100%;
+    padding: 25px 8px 25px 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 50px;
+    border-radius: 10px;
+    border-color: #FFF;
+    box-shadow: 2px 2px 3px 1px rgb(97 89 89 / 50%);
+    text-align: right;
+    outline: none;
+    background-color: #fbfbfb;
+    color: #34495e;
+}
+
+.calculator .number-pad {
+	margin-top: 20px;
+}
+
+.calculator .number-pad input {
+	width: 21.8%;
+    padding: 12px;
+    font-size: 25px;
+	border-radius: 5px;
+	border-color: #FFF;
+	outline: none;
+	margin-left: 5px;
+	box-shadow: 2px 2px 3px 1px rgb(97 89 89 / 50%);
+	color: #2f2524e8;
+	background: #dcdadaf5;
+}
+
+.calculator .number-pad input:hover {
+	background: #d2cdcdf5;;
+}
+
+.calculator .number-pad input:active {
+	outline: none;
+	border: none;
+}
+
+.calculator .number-pad .rows {
+	margin-top: 8px;
+}
+
+.calculator .number-pad #c{
+	background-color: #ff9f43;
+	color: #FFF;
+}
+
+.calculator .number-pad #c:hover{
+	background-color: #ff8816;
+	color: #FFF;
+}
+
+.calculator .number-pad #root{
+	color: #2e86de;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.calculator .number-pad #backspece{
+	color: #2e86de;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.calculator .number-pad #divite{
+	color: #2e86de;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.calculator .number-pad #into{
+	color: #2e86de;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.calculator .number-pad #minus{
+	color: #2e86de;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.calculator .number-pad #plus{
+	color: #2e86de;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.calculator .number-pad #point{
+	color: #2e86de;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.calculator .number-pad #persentise{
+	color: #2e86de;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.calculator .number-pad #equal{
+	background-color: #54a0ff;
+	font-weight: bold;
+	font-size: 25px;
+	color: #FFF;
+}
+
+.calculator .number-pad #equal:hover{
+	background-color: #468ee8;;
+}
+
+.calculator .number-pad #equal:focus{
+	background-color: #f31818;
+}
+
+/* ~=~=~=~=~=~=~=~=~=~=~=~=~=~=~+~=
+    This Code is for Responsive    !
+~=~=~=~=~=~=~=~=~=~=~=~=~=~=~+~= */
+
+@media only screen and (min-width: 2560px){
+	.calculator .number-pad input {
+		
+		width: 22.8%;
+		padding: 26px;
+		font-size: 35px;
+		margin-left: 10px;
+	}    
+	
+	#display {
+		padding: 30px 0 30px 0;
+		font-size: 120px;
+	}
+	
+	.calculator {
+		padding: 35px;
+	}
+	
+	.calculator .brand-name p {
+		font-size: 30px;
+	}
+	
+	.calculator .model-no p {
+		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width: 1366px){
+	.calculator .number-pad input {
+		width: 22.5%;
+	}    
+}
+
+@media only screen and (max-width: 1440px){
+	.calculator .number-pad input {
+		width: 22.5%;
+	}    
+}
+
+@media only screen and (max-width: 1024px){
+	.calculator .number-pad input {
+		width: 21.5%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.calculator {
+		width: 50%;
+	}
+	.calculator .number-pad input {
+		width: 22.5%;
+	}
+}
+
+@media only screen and (max-width: 425px){
+	.calculator {
+		width: 80%;
+	}
+	.calculator .number-pad input {
+		width: 22.5%;
+	}
+}
+
+@media only screen and (max-width: 375px){
+	.calculator .number-pad input {
+		width: 21.5%;
+	}
+}

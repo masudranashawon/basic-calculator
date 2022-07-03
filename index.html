@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="calculator" author="masud rana shawon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator || Masud Rana Shawon</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="calculator">
+		<div class="brand-name">
+			<p>MASUD</p>
+		</div>
+		<div class="model-no">
+			<p>MRS- 2021</p>
+		</div>
+		<div class="display">
+			<input type="text" name="display" id="display" value="" placeholder="0" readonly>
+		</div>
+		<div class="number-pad">
+			<div class="rows">
+				<input type="button" name="c" id="c" value="C" onclick="clr()">
+				<input type="button" name="root" id="root" value="√" onclick="calculate()" disabled>
+				<input type="button" name="backspece" id="backspece" value="&LeftArrow;" onclick="calculate()" disabled>
+				<input type="button" name="divite" id="divite" value="/" onclick="calculate('/')">
+			</div>
+			<div class="rows">
+				<input type="button" name="7" id="7" value="7" onclick="calculate(7)">
+				<input type="button" name="8" id="8" value="8" onclick="calculate(8)">
+				<input type="button" name="9" id="9" value="9" onclick="calculate(9)">
+				<input type="button" name="into" id="into" value="*" onclick="calculate('*')">
+			</div>
+			<div class="rows">
+				<input type="button" name="4" id="4" value="4" onclick="calculate(4)">
+				<input type="button" name="5" id="5" value="5" onclick="calculate(5)">
+				<input type="button" name="6" id="6" value="6" onclick="calculate(6)">
+				<input type="button" name="minus" id="minus" value="-" onclick="calculate('-')">
+			</div>
+			<div class="rows">
+				<input type="button" name="1" id="1" value="1" onclick="calculate(1)">
+				<input type="button" name="2" id="2" value="2" onclick="calculate(2)">
+				<input type="button" name="3" id="3" value="3" onclick="calculate(3)">
+				<input type="button" name="plus" id="plus" value="+" onclick="calculate('+')">
+			</div>
+			<div class="rows">
+				<input type="button" name="0" id="" value="0" onclick="calculate(0)">
+				<input type="button" name="point" id="point" value="." onclick="calculate('.')">
+				<input type="button" name="persentise" id="persentise" value="%" onclick="calculate('%')">
+				<input type="button" name="equal" id="equal" value="=" onclick="total()">
+			</div>
+		</div>
+	</div>
+	<script src="js/custom.js"></script>
+</body>
+</html>
